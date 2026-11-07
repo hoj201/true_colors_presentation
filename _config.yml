@@ -1,0 +1,22 @@
+title: True Colors
+description: >-
+  The role of assurance contracts in protest movements.
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Keep the simulation's code and tooling out of the published site.
+# The rendered videos (simulation/*.mp4) are still published so they can be embedded.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - simulation/README.md
+  - simulation/*.py
+  - simulation/requirements.txt
+  - simulation/.venv
+  - simulation/__pycache__
+  - simulation/.pytest_cache
