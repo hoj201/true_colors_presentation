@@ -5,16 +5,15 @@ date:   2026-11-04
 permalink: /
 ---
 
-Naively one might think that if a policy is unpopular, impactful, and raises our passions then we would express our disapproval in a mass movement.
-History suggests that it's not so linear.
-Sometimes we do, sometimes we don't.
-The Trump administration did things continually that large majorities disapproved, and yet mass movements only occurred sporadically. We had to wait for large galvanizing events to coordinate an opposition (like the killing of Alex Pretti).  It wasn't until our midterms that national opposition became apparent.
+One might think that if a policy is unpopular, impactful, and raises our passions then we would express our disapproval in a mass movement.
+History (and some amount of logic) suggests this is not really what happens.
+The Trump administration did things continually that large majorities disapproved of but mass movements only occurred sporadically. We had to wait for large galvanizing events to coordinate opposition (like the killing of Alex Pretti).  It wasn't until our midterms that national opposition became apparent.
 
-Why is the majority so docile? There are "professional protesters" who can always be relied upon to express their views.
-However, the majority of Americans cannot be held to that standard.
-For us normies there is a cost to going to a protest (primarily in time, but also money if you need to hire childcare).
+Why are we collectively so docile? There are "professional protesters" who can always be relied upon to express their views.
+However, the majority of Americans (including me) cannot be held to that standard.
+For us normies there is a cost to going to a protest.  This cost is primarily in time, but also money if you need to hire childcare or to take off work.
 
-What is counter-intuitive is that this cost seems small relative to the gains.  If I could end mass incarceration for the cost of a few nights of babysitting, then I would do it in a heartbeat. However, this is not the decision that I am presented with as an individual.  The decision is whether or not to go to a protest that may or may not work, and my part in the success is minuscule.
+What might be counter-intuitive is that this cost seems small relative to the gains.  If I could end mass incarceration or corn subsidies for the cost of a few nights of babysitting, then I would do it in a heartbeat. However, this is not the decision that I am presented with as an individual citizen.  The decision is whether or not to go to a protest that may or may not work and my role is probably not decisive.
 
 Going to a protest is only rational for an individual if the decision turns a failing protest into a successful one (if the protest is already successful you can free-ride). The protest is only successful if a lot of other normies go to it.  So the decision to go to a protest for a group of individuals feels like a prisoner's dilemma.
 
@@ -55,11 +54,8 @@ In stag hunt we have two hunters in a forest of deer and squirrels.  The hunters
 
 Again, there are two pure Nash equilibria.  Both hunters cooperate, and both hunters defect.  In any case, rational behavior is not enough to determine the outcome.
 
-And again, this models another dynamic that exists when a protest is launched.
-When somebody considers whether or not to go to a protest, it's only worth going if they do not feel isolated from their group. 
-
 I won't belabor the point further, except to say that there are now two games that model going to protests, and both games suggest that going to a protest that benefits everybody is not exactly rational.
-We can grumble about this, and I did that for a long time.  However, I think there is a solution.
+We can grumble about this.  However, I think there is a solution.
 
 
 ## How to make protests rational
@@ -87,11 +83,10 @@ Lastly, there is no risk to signing the contract because if you sign the contrac
 My proposal is to set up a platform to broker these sorts of contracts.
 The game theory in a world of assurance contracts is trivial. Each individual must decide to sign or not sign a contract. The Nash equilibrium is for everybody to sign an assurance contract because the contract has no downside risk relative to the status quo.
 
-### Badda-boom-badda-bing
 Going to protests is now rational.
 
 ... with some steps in the middle.
-In a world with an assurance contract broker it is now rational to sign assurance contracts for protests that we align with. Since people are signing assurance contracts left and right, many of these contracts will get triggered, meaning protests will be attended.
+With a trustworthy assurance contract broker it is rational to sign assurance contracts for protests that we align with. Since people are signing assurance contracts left and right, many of these contracts will get triggered, meaning protests will be attended.
 Effectively this means that in a world with an assurance contract broker, going to protests is rational.
 
 This might seem like a very minor and wonky idea.  However, I think this has the potential to be sneakily big. Perhaps it's easier to show rather than tell.
@@ -116,7 +111,7 @@ In contrast, in a world with an assurance contract broker the long term dynamics
 </video>
 
 
-## Engineering Challenges
+## Challenges
 
 What I envision is basically a platform for setting up assurance contracts. On this platform there are two types of users:
 
@@ -127,11 +122,11 @@ Organizations can propose actions.  Citizens can draw up assurance contracts to 
 
 I've created a prototype for such a platform, which I call [true colors](https://true-colors.onrender.com/).  The idea being that we are allowing citizens to show their true colors, which are otherwise hidden by strategic thinking and doubt.
 
-Effectively, this approach turns a social problem (galvanizing support) into an engineering problem.  The challenges I've been having with setting this up are
+To a large extent, this turns a social problem (galvanizing support) into a series of engineering problems.  The challenges I've been having with setting this up are
 
 1. **Cybersecurity**:  I want the assurance contracts to be secret, perhaps even from the organization that stores them.  This way if a government seizes the data the individuals who joined are safe.
 2. **Communication**:  Once a contract is triggered, how do we communicate with individuals?  If we store their emails this sacrifices cybersecurity a bit.  There are solutions, but they are technical and I need more people to work with me on landing on a good one, or a good compromise.
 3. **Features**: The sky is the limit on how many features one could add, but too many features makes a platform overwhelming and will drive away users.
 
 
-There is one big non-technical concern I have.  Will people get it?  Is this idea just too complex?  Messaging is hard.  It's what I am trying to do with this write-up.  I am confident this would be a game-changing idea if people understood it.  I have no idea how to get enough people to understand it.
+I think the biggest non-technical concern I have is related to education.  Will people get it?  Messaging is hard.  The contracts are simple, but they are not that intuitive.  The assurance contracts explicitly state ways for people to **not** participate in a protest.  So it's sometimes surprising to people when I claim that this will lead to bigger and more sensible protests. I am confident this would be a game-changing idea if people understood it.  I have no idea how to get enough people to understand it.
