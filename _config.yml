@@ -1,7 +1,6 @@
 title: True Colors
 description: >-
   The role of assurance contracts in protest movements.
-theme: minima
 markdown: kramdown
 plugins:
   - jekyll-feed
